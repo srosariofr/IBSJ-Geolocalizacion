@@ -98,7 +98,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463444,,,Ana,González Boitel,"C. Licenciado Malaquias Gil 10",,SERRALLES,
 108463445,,,Pedro Silvestre,Caraballo Pouerie,"C/ Luis Amiama Tió  #92, Residencial G20, Apto G-3",Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463446,,,Rubén Dario,Castillo Mayol,"Colinas del Arroyo II, Proy. Vista del Arroyo Apto N101",Colinas del Norte,Santo Domingo Norte,Santo Domingo
-108463447,,,Ivelisse Antonia,Cedeño Basilio,"Parque del km7, Los Jovillos",San Jose,,
+108463447,,,Ivelisse Antonia,Cedeño Basilio,"C. 3ra Bajos de Haina",San Jose,,
 108463448,,,Alejandro,Castillo Franco,Calle Poncio Sabater #1,Ensanche Paraiso,Santo Domingo,Distrito Nacional
 108463449,,,María Alicia,Esteva de Castillo,Calle El Retiro #1,Ensanche Piantini,Santo Domingo,Distrito Nacional
 108463450,,,Marleny,Ciriaco de Lantigua,"C/JOSE CONTRERAS #71,APT.301,  RES. IBERIA",La Julia,ZONA UNIVERSITARIA,
@@ -162,7 +162,6 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463517,,,Diala,Gil Echavarría,Altos de Arroyo Hondo III,Altos de Arroyo Hondo III,Santo Domingo,Distrito Nacional
 108463518,,,Alberto Antonio,González De La Rosa,"Calle P #38, La Agustina",La Agustina,Santo Domigno,Distrito Nacional
 108463519,,,Johanny María,Pérez de Gómez,Calle Paseo de la Isabela #25,,Urb. Isabel Villas,Sto. Dgo.
-108463520,,,Lourdes,Piña de González,"RES.KB, CALLE Ambar #84, CARR. SANCHEZ KM.6 1/2",El Portal,,Distrito Nacional
 108463522,,,Nicole,Weinerth de Guerra,Calle El Retiro No. 18 ,Ensanche Paraiso,Santo Domingo,Distrito Nacional
 108463523,,,Mercedes Julia,González de Caraballo,"C/ Freddy Gatón Arce No. 16, Apto 202",Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463524,,,Rocío Marlene,Adames de González,"Calle P #38, La Agustina",La Agustina,Santo Domigno,Distrito Nacional
@@ -366,7 +365,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463755,,,Carolina,Varona Ramírez,"Luis Amiama Tió 92, Arroyo Hondo",Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463756,,,Adolfina,"Varela, Báez De","Livia Veloz, No. 7, La Castellana",Castellana,Santo Domingo,Distrito Nacional
 108463757,,,Rosa María,Vásquez Miliano,BONAIRE 174,Alma Rosa I,Santo Domingo Este,Santo Domingo
-108463759,,,Jose Antonio,Valdez Cordero,Arroyo Hondo Perantuen,Perantuem,Santo Domingo
+108463759,,,Jose Antonio,Valdez Cordero,Arroyo Hondo Perantuen,Perantuem,Santo Domingo,
 108463760,,,Sonia,"Urbaez, De","Calle 12 #191, Urbanización El Paso, Villa Mella",Villa Mella,Santo Domingo,Distrito Nacional
 108463761,,,Bethsaida,Encarnación de Valdez,"Carretera La Isabela, Arroyo Hondo, Perantuem #33C",Perantuem,,Santo Domingo
 108463762,,,José Fancisco,Veras,"Juan Tomás Mejía y Cotes, esquina Luis Amiama Tio #68 3c",Arroyo Hondo,Santo Domingo,Distrito Nacional
@@ -484,7 +483,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463895,,,Eduviges Elena,Aponte,"Calle Catalina Gil 23, Arroyo Hondo",Arroyo Hondo,,Distrito Nacional
 108463898,,,Miguelina,Cabrera de Martínez,Calle 13 9 Las Américas,Herrera,"Andrés, Boca Chica",
 108463899,,,Luisa,Astacio Nuñez,"Miguel Angel Monclus Esq. Marginal 1era., Apto.3-B",Los Cacicazgos,,Distrito Nacional
-108463900,,,Dionicio,Martínez,Calle 13 9 Las Américas,"Andrés, Boca Chica",
+108463900,,,Dionicio,Martínez,Calle 13 9 Las Américas,"Andrés, Boca Chica",,
 108463901,,,Angela,"Almánzar, Santana de",,,,
 108463902,,,Esther,Martínez Castillo,Calle Luis Amiama Tió 98,Arroyo Hondo,,Distrito Nacional
 108463903,,,Juan Miguel,Urbáez González,"Av. República de Colombia, Ciudad Real II, Ed.17",,,Santo Domingo
