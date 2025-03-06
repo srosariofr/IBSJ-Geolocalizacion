@@ -3,6 +3,7 @@ import geopandas as gpd
 import pandas as pd
 import folium
 import osmnx as ox
+import numpy as np
 from shapely.geometry import Point
 from sklearn.cluster import KMeans
 from streamlit_folium import folium_static
