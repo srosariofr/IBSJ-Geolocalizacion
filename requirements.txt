@@ -4,5 +4,5 @@ pandas
 folium
 osmnx
 shapely
-sklearn
+scikit-learn
 streamlit_folium
