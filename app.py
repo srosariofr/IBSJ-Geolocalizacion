@@ -18,7 +18,9 @@ n_clusters = st.sidebar.slider("Número de Clusters", min_value=2, max_value=10,
 
 # Aplicar K-Means
 kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
-gdf["cluster"] = kmeans.fit_predict(gdf.geometry.apply(lambda p: [p.x, p.y]))
+coordinates = np.array([(point.y, point.x) for point in gdf.geometry])
+gdf["cluster"] = kmeans.fit_predict(coordinates)
+
 
 # Crear el mapa
 mapa = folium.Map(location=[18.5, -69.9], zoom_start=9)
