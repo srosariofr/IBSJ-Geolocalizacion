@@ -1,5 +1,5 @@
 id,prefix,name,first_name,last_name,address_1,address_2,city,state
-106123565,,,José Manuel,Pablo Michelen,"Calle Freddy Gatón Arce No. 9",Viejo Arroyo Hondo,Santo Domingo,Distrito Nacional
+106123565,,,José Manuel,Pablo Michelen,"Calle Freddy Gatón Arce 9",Viejo Arroyo Hondo,Santo Domingo,Distrito Nacional
 107350252,,,Cirilo,Camacho,"Ave. Puerta de Hierro No. 42",Puerta de Hierro,Sto. Dgo.,Distrito Nacional
 107350269,,,Alfredo,Camacho,Hector Garcia Godoy No 24,,Sto. Dgo.,Distrito Nacional
 107350280,,,Ángel Martín,Castillo Franco,"C/ D, #8, Viejo Arroyo Hondo",,Santo Domingo,Distrito Nacional
@@ -56,7 +56,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463395,,,Rixon Valentín,Aquino Espinosa,"Calle, Cerro Montoso No. 5. Altos de Arroyo Hondo 3",Altos de Arroyo Hondo III,Sto Dgo,Distrito Nacional
 108463396,,,Llandra E.,Alcántara de Rivera,"Av.Coronel Lora Fernandez 141, Altos de Arroyo Hondo II",Altos de Arroyo Hondo II,BARRIO DUARTE,Distrito Nacional
 108463397,,,José,Antigua y Abreu,"Calle Genova 21, Santo Domingo Este",URB. ITALIA,Santo Domingo Este,
-108463398,,,Juliana,Alfonseca,"C/LOPE CONTRERAS #6, LIBERTADOR",Herrera,HERRERA,
+108463398,,,Juliana,Alfonseca,"Calle López Contreras 6, Herrera",Herrera,HERRERA,
 108463399,,,Yolanda,Arias Norberto,"Triada V Calle 3ra",Barrio La Fe,Sto Dgo,Distrito Nacional
 108463400,,,Dominga,Santana de Acosta,Calle Paseo de Madrid 25,Actualizar,"Santo Domingo, R.D.",
 108463401,,,Martín,Batista Rodríguez,"Calle General Rodríguez Reyes #43, La Agustina",La Agustina,LA AGUSTINA ARROYO HONDO,
@@ -69,7 +69,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463408,,,René Vicente,Berrido Almánzar,"Paseo de Barcelona #61, Puerta de Hierro",Puerta de Hierro,Santo Domingo,Distrito Nacional
 108463409,,,Luz del Alba,Marte de Almánzar,Residencial Ortega y Gasset,La Fe,Santo Domingo,Distrito Nacional
 108463410,,,Erasmo,Alberto Peña,Villa Mella,Villa Mella,Santo Domingo Norte,Santo Domingo
-108463411,,,Reyna,"Alix, Ramírez Vda.",Calle T esquina S #5,La Agustina,La Agustina,Distrito Nacional
+108463411,,,Reyna,"Alix, Ramírez Vda.",Calle T esq Calle S,La Agustina,La Agustina,Distrito Nacional
 108463412,,,Fremio Ernesto,Brea Peña,"Calle Primera, Viejo Arroyo Hondo",Altos de Arroyo Hondo II,ALTOS ARROYO HONDO 2do.,Distrito Nacional
 108463413,,,Ramona Orquídea,Pérez de Almonte,C/JUANA SALTITOPA #51,Villa Francisca,,Distrito Nacional
 108463415,,,Jesús Feliciano,Cabrera Batista,"C. 11 53, Julieta Morales",casa #53,Distrito Nacional,
@@ -92,7 +92,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463437,,,Asier Oscar,Cabrera Bentz,"C/Paseo de Barcelona #7, Urb. Puerta de Hierro",Puerta de Hierro,ARROYO HONDO,Distrito Nacional
 108463439,,,Rosa Nidia,Martínez de Cabrera,,,,
 108463440,,,Enrique,Camacho Melo,"C. Padre Emiliano Tardif, Evaristo Morales",Evaristo Morales,Sto. Dgo.,Distrito Nacional
-108463441,,,Antonio,Carela Aracena,"Residencial Sol Creciente #14",Arroyo Hondo,Santo Domingo,Distrito Nacional
+108463441,,,Antonio,Carela Aracena,"Residencial Sol Creciente 14",Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463442,,,Lisbeth,Caraballo de Mateo,"C/ Freddy Gatón Arce No. 16, Apto 202",URB. FERNANDEZ,Santo Domingo,Distrito Nacional
 108463443,,,Gregorio,Caraballo Ulerio,"C/ Freddy Gatón Arce No. 16, Apto 202",Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463444,,,Ana,González Boitel,"C. Licenciado Malaquias Gil 10",,SERRALLES,
@@ -104,7 +104,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463450,,,Marleny,Ciriaco de Lantigua,"C/JOSE CONTRERAS #71,APT.301,  RES. IBERIA",La Julia,ZONA UNIVERSITARIA,
 108463451,,,Ludwig Miguel,Céspedes Paniagua,"Calle Los Pioneros No. 4",Engome,Santo Domingo Oeste,Santo Domingo
 108463452,,,Eunice,Ogando de Céspedes,"Calle Los Pioneros Manzana E2, No. 04",Engome,Santo Domingo Oeste,Santo Domingo
-108463453,,,Isabel,Peña de Carela,"Residencial Sol Creciente #14",Altos de Arroyo Hondo II,Santo Domingo,Distrito Nacional
+108463453,,,Isabel,Peña de Carela,"Residencial Sol Creciente 14",Altos de Arroyo Hondo II,Santo Domingo,Distrito Nacional
 108463454,,,Susana Carolina,García de Casado,Carlos Perez Ricart No.17 Condominio Arroyo Hondo Apto.101B,Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463455,,,Gabriel,Colón De La Cruz,C/TOMAS DE LA CONCHA #40,Actualizar,,
 108463456,,,Sandra,Mejía de Caraballo,"C/ Luis Amiama Tió  #92, Residencial G20, Apto G-3",Arroyo Hondo,Santo Domingo,Distrito Nacional
@@ -155,7 +155,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463510,,,Adelaida,Felix de Fontil,Calle Carlos Perez Ricart #27,Arroyo Hondo,,Distrito Nacional
 108463511,,,Fiordaliza,Batista de Fuertes,"Calle 5 #6, Urbanización Villa Satélite, Villa Mella",Villa Mella,Santo Domingo,Distrito Nacional
 108463512,,,Juan Herenio,Gómez,El Millon,,,
-108463513,,,Sofía Jackeline,Roa de Fuertes,"Calle Puerta de Hierro #46 , Urbanización Puerta  de Hierro",Arroyo Manzano,"Santo Domingo, D.N: Sector Arroyo Manzano",
+108463513,,,Sofía Jackeline,Roa de Fuertes,"Av. Puerta de Hierro 46",Arroyo Manzano,"Santo Domingo, D.N: Sector Arroyo Manzano",
 108463514,,,Madeleine,Germosen,Calle 5 Altos de Arroyo Hondo,Altos de Arroyo Hondo II,"Santo Domingo, D.N.",
 108463515,,,Fania Altagracia,Fernández de Rodríguez,"Av. de La Vega Real #70, Arroyo Hondo",,DISTRITO NACIONAL,
 108463516,,,Salvador A.,Gómez Dickson,Calle Paseo de la Isabela #25,,Urb. Isabel Villas,Sto. Dgo.
@@ -207,7 +207,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463571,,,Leonidas Enmanuel,Lora Heyaime,AVE. ORTEGA Y GASSET ESQ. FCO. VILLA ESPESA #15,Ensanche La Fe,Santo Domingo,
 108463572,,,Xiomara,Marmolejos Acosta,PASEO DE LOCUTORES #37,Evaristo Morales,EVARISTO MORALES,
 108463573,,,Enrique,Matos Custodio,C/PELONA ESQ. MOGOTE NO. 17,Cerros de Arroyo Hondo III,,
-108463574,,,Elaine Alejandra,Mañón,Calle #5 paralela Roberto Pastoriza,Evaristo Morales,Distrito Nacional,
+108463574,,,Elaine Alejandra,Mañón,Calle 5 Evaristo Morales,Evaristo Morales,Distrito Nacional,
 108463575,,,Leonel Rafael,López Pichardo,Residencial Villas Claudia,Villa Claudia,Sto. Dgo.,Distrito Nacional
 108463576,,,Rosa Mercedes,Marichal,Calle Serafina A. de Tapia 53,San Geronimo,,Distrito Nacional
 108463577,,,Ingrid Del Carmen,Mota de Rodríguez,"Calle S #10, Puerta de Hierro",Arroyo Hondo,Santo Domingo,DN
@@ -232,7 +232,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463597,,,Carmen Yadira,Barján de Mejía,"Calle H 7, Altos de Arroyo Hondo",Altos de Arroyo Hondo II,Arroyo Hondo,Distrito Nacional
 108463598,,,Luis Manuel,Morillo Cepeda,calle luis amiama tio #66,REs. Amelia XV apto 3B,Santo domingo,Distrito Nacional
 108463599,,,Gloria María,Jiménez de Michelén,"Calle del Carmen 16, Naco",Naco,Santo Domingo,Distrito Nacional
-108463600,,,Niurka Lissette,Monción de Brito,Jacobo Majuta #7 Res. Suleni 5 Edif 1 Apt 2a casi esq. Rep de Colombia,Altos de Arroyo Hondo II,,Distrito Nacional
+108463600,,,Niurka Lissette,Monción de Brito,Residencial Sulenny V,Altos de Arroyo Hondo II,,Distrito Nacional
 108463602,,,Natalia,Mena Arias,"CALLE B #8, RESPALDO HAMARAP, VILLA FARO",Villa Faro,SANTO DOMINGO ESTE,Distrito Nacional
 108463603,,,Thelmo,Monegro Fajardo,Juan Tomas Mejía y Cotes 65,Viejo Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463604,,,Carlos Guillermo,Mena Jiménez,"C/Central #5, Edif. Miranda  I, Apto.A-4, Alameda",Alameda,Santo Domingo,Santo Domingo
@@ -379,16 +379,16 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463770,,,Ana Indhira,Villamán de De Los Santos,"C/1ra #23 Res. Alcon, Arroyo Hondo",Arroyo Hondo,Santo Domingo,
 108463771,,,Guedis,Mercedes Vda. Vizcaino,Calle Plaza de la Independencia 8,El Millon,Santo Domingo,Distrito Nacional
 108463773,,,Ivelisse,De la Cruz de Viola,"Carretera La Isabela #19, Residencial San Fco. de Asís IV",Altos de Arroyo Hondo II,Arroyo Hondo II,Distrito Nacional
-108463774,,,Josefa Altagracia,Zapata Moreno,C/1-2 #2,Actualizar,LOS MINAS,
+108463774,,,Josefa Altagracia,Zapata Moreno,"Calle I-2, Los Mina Sur",Actualizar,LOS MINAS,
 108463775,,,Rafaela Mercedes,Luciano de Viñas,"Calle Hector Garcia Godoy, Res Thenesy XI, apto F2",Arroyo Hondo,,
 108463776,,,Florangel,Ortiz de Irizarry,"Calle Bambú, Edf. Triada VIII Apto. 101 Sector Don Honorio",Don Honorio,Santo Domingo,Distrito Nacional
 108463777,,,Massiel,Zapata,Calle Hector García Godoy #24,Altos de Arroyo Hondo I,Santo Domingo,Distrito Nacional
 108463778,,,Esmelin Darío,Irizarry,"Calle Bambú, Edf. Triada VIII Apto. 101 Sector Don Honorio",Don Honorio,Santo Domingo,Distrito Nacional
 108463779,,,Elizardo José,Zabala Pérez,"Calle Crisantemos",Los Jardines del Norte,Santo Domingo,Distrito Nacional
 108463780,,,Elizabeth,Zabala,"Calle Crisantemos",Los Jardines del Norte,Santo Domingo,Distrito Nacional
-108463781,,,María Altagracia,Zapata Moreno,C/1-2 #2,Los Mina Sur,LOS MINAS,
+108463781,,,María Altagracia,Zapata Moreno,"Calle I-2, Los Mina Sur",Los Mina Sur,LOS MINAS,
 108463782,,,María Sara,Beltrán,"Av. República de Colombia, Residencial Ciudad Real  II, Manzana Q2, Edificio 13, Apto.401, Arroyo Hondo",Altos de Arroyo Hondo I,Santo domingo,Distrito Nacional
-108463783,,,Emanuel,Carela Peña,"Residencial Sol Creciente #14",Arroyo Hondo,Santo Domingo,Distrito Nacional
+108463783,,,Emanuel,Carela Peña,"Residencial Sol Creciente 14",Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463784,,,Nelson,Sahdalá Chávez,Calle Alberto Peguero 102,Miraflores,Santo Domingo,Distrito Nacional
 108463785,,,Sara Elizabeth,Muñoz de Camacho,"Spring Towers, Arroyo Hondo",Arroyo Hondo Viejo,Sto. Dgo.,Distrito Nacional
 108463786,,,Hermógenes,Casado,Calle E 11,Altos de Arroyo Hondo II,D.N.,Distrito Nacional
@@ -435,8 +435,8 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463836,,,Ranse Alberto,Pérez Jiménez,"Av. Jacobo Majluta, Apto.101, ",Residencial Ciudad Bonita,Santo Domingo,Distrito Nacional
 108463837,,,Nairoby,Andújal de Rosario,"Calle Isabel Caceres 6",Mirador Norte,,Santo Domingo
 108463838,,,Rosy,Ortiz de Camacho,"Ave. Puerta de Hierro #42, Urb. Puerta de Hierro",Puerta de Hierro,Sto. Dgo.,Distrito Nacional
-108463839,,,Fernando Ricardo,Castellanos,Villas del Parque 0 #8,Ciudad Modelo,,Santo Domingo
-108463841,,,Angélica,La Paz de Castellanos,Villas del Parque 0 #8,Ciudad Modelo,,Santo Domingo
+108463839,,,Fernando Ricardo,Castellanos,Villas del Parque 0,Ciudad Modelo,,Santo Domingo
+108463841,,,Angélica,La Paz de Castellanos,Villas del Parque 0,Ciudad Modelo,,Santo Domingo
 108463842,,,Sergio Alcides,Tobal Ureña,"Bienvenido García Gautier 19, Arroyo Hondo. Res. Los Caminos",101,Distrito Nacional,
 108463843,,,Cindy L.,Rodríguez V.,C/Hector García Godoy #24,Spring Tower 201A,,Distrito Nacional
 108463844,,,Wilfredo Enrique,Mejía Polanco,"Calle Pimentel 7, San Carlos",San Carlos,Santo Domingo,Distrito Nacional
@@ -479,7 +479,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463890,,,Rosanna,Henríquez de Ruiz,Calle 28 Oeste. Manz.81 #9. Los Prados San Luis,Actualizar,,Santo Domingo
 108463891,,,Charles Mirquelly,Pérez Vargas,Calle R & Calle S,Altos de Arroyo Hondo I,,Distrito Nacional
 108463892,,,Lourdes,de Concepción,Las Caobas Manzana 40 Casa #20,Las Caobas,Santo Domingo,DN
-108463893,,,Elizabeth A.,Carela Peña,"Residencial Sol Creciente #14",Altos de Arroyo Hondo I,Santo Domingo,Distrito Nacional
+108463893,,,Elizabeth A.,Carela Peña,"Residencial Sol Creciente 14",Altos de Arroyo Hondo I,Santo Domingo,Distrito Nacional
 108463894,,,Angela,"Rodríguez, Almánzar de","Residencial Altos de Alameda",,,Distrito Nacional
 108463895,,,Eduviges Elena,Aponte,"Calle Catalina Gil 23, Arroyo Hondo",Arroyo Hondo,,Distrito Nacional
 108463898,,,Miguelina,Cabrera de Martínez,Calle 13 9 Las Américas,Herrera,"Andrés, Boca Chica",
