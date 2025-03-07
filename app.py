@@ -85,8 +85,6 @@ for idx, row in gdf.iterrows():
         icon=folium.Icon(color=marker_color, icon="info-sign")  # Color y estilo del marcador
     ).add_to(mapa)
 
-
-
 # Mostrar el mapa en Streamlit
 with col2:
     st_folium(mapa, width="100%", returned_objects=[])
