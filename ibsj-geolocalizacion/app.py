@@ -17,8 +17,9 @@ st.set_page_config(
     menu_items=None
 )
 
+st.title("📌 Geolocalización Miembros IBSJ")
+
 with st.container():
-    st.header("Geolocalización Miembros IBSJ", divider="gray")
     col1, col2 = st.columns([0.35, 0.65], gap='small', border=True)
 
 # Cargar puntos de ejemplo

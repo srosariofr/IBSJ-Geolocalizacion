@@ -110,7 +110,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463456,,,Sandra,Mejía de Caraballo,"C/ Luis Amiama Tió  #92, Residencial G20, Apto G-3",Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463457,,,Ilda Luisa,Gómez de Conde,C. Erik Leonard Ekman 28,,,
 108463459,,,Víctor Adiel,Contreras Díaz,"Ciudad Real 2, Manzana D Edf 64, Altos de Arroyo Hondo",Altos de Arroyo Hondo II,Santo Domingo,Distrito Nacional
-108463460,,,Rosario,Espinal de Espín,"Ave. República de Colombia, Ciudad Real II, Manzana I, Edificio 9, Apto. 101, Arroyo Hondo III",Altos de Arroyo Hondo III,,
+108463460,,,Rosario,Espinal de Espín,"Ciudad Real II, Ave. República de Colombia",Altos de Arroyo Hondo III,,
 108463461,,,Felicia,"De Jesús, Pérez Vda.","Calle 3 #17,  La Puya",La Puya,Santo Doingo,Distrito Nacional
 108463463,,,Matilde,"Cuevas, Valdés De",calle 1ra. Casa 54 La Agustinita,La Agustinita,"Santo Domingo, D.N.",
 108463465,,,Rafael,De La Rosa Ortiz,Cristo Rey,Cristo Rey,CRISTO REY,Distrito Nacional
@@ -149,7 +149,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463502,,,Bernardina Alt.,Veloz de Florentino,"Calle los ríos #380, Urb. Bello Campo",Bello Campo,Santo Domingo,Distrito Nacional
 108463504,,,Mercedes,"García, Torres Vda.",C/LOS CERROS #60 URB. CERROS BUENA VISTA,Cerros de Buena Vista I,Santo Domingo,
 108463505,,,Luis,Fuertes Borges,"Calle 5 #6, Urbanización Villa Satélite, Villa Mella",Villa Mella,Santo Domingo,Distrito Nacional
-108463506,,,Edwin Manuel,Espín Rodríguez,"Av. República de Colombia, Ciudad Real, Manzana i, Edificio 9, Apto. 101, Arroyo Hondo III, Santo Domingo, D.N.",Altos de Arroyo Hondo III,,
+108463506,,,Edwin Manuel,Espín Rodríguez,"Ciudad Real II, Av. República de Colombia",Altos de Arroyo Hondo III,,
 108463508,,,Felipe,Florentino Santos,"Calle los ríos #380, Urb. Bello Campo",Bello Campo,Santo Domingo,Distrito Nacional
 108463509,,,Manuela,González de Flaquer,"Federico Geraldino #44, Edificio Almaden IV",Piantini,Santo Domingo,
 108463510,,,Adelaida,Felix de Fontil,Calle Carlos Perez Ricart #27,Arroyo Hondo,,Distrito Nacional
