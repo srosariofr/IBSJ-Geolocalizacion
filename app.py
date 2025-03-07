@@ -22,7 +22,7 @@ kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
 coordinates = np.array([(point.y, point.x) for point in gdf.geometry])
 gdf["cluster"] = kmeans.fit_predict(coordinates)
 
-cluster_counts = gdf_puntos["cluster"].value_counts().sort_index()
+cluster_counts = gdf["cluster"].value_counts().sort_index()
 st.sidebar.subheader("📈 Estadísticas de Clustering")
 st.sidebar.write(cluster_counts)
 
