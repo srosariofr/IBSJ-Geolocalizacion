@@ -22,9 +22,18 @@ kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
 coordinates = np.array([(point.y, point.x) for point in gdf.geometry])
 gdf["cluster"] = kmeans.fit_predict(coordinates)
 
-cluster_counts = gdf["cluster"].value_counts().sort_index()
+# 📊 Calcular estadísticas
+cluster_counts = gdf["cluster"].value_counts().reset_index()
+cluster_counts.columns = ["cluster", "cantidad"]
+cluster_counts["porcentaje"] = (cluster_counts["cantidad"] / cluster_counts["cantidad"].sum()) * 100
+cluster_counts["color"] = cluster_counts["cluster"].apply(lambda x: colors[x % len(colors)])
+
+# 📌 Ordenar de mayor a menor
+cluster_counts = cluster_counts.sort_values(by="cantidad", ascending=False)
+
+# 📊 Mostrar tabla en la barra lateral
 st.sidebar.subheader("📈 Estadísticas de Clustering")
-st.sidebar.write(cluster_counts)
+st.sidebar.dataframe(cluster_counts.style.format({"porcentaje": "{:.2f}%"}), use_container_width=True)
 
 
 # Crear el mapa
