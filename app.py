@@ -19,7 +19,7 @@ st.set_page_config(
 
 with st.container():
     st.header("Geolocalización Miembros IBSJ", divider="gray")
-    col1, col2 = st.columns([0.3, 0.7], gap='small', border=True)
+    col1, col2 = st.columns([0.35, 0.65], gap='small', border=True)
 
 # Cargar puntos de ejemplo
 @st.cache_data 
