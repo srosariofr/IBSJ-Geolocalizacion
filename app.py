@@ -17,6 +17,13 @@ gdf = gpd.GeoDataFrame(gdf, geometry=geometry, crs="EPSG:4326")  # Asigna CRS WG
 # Sidebar: Parámetro de K-Means
 n_clusters = st.sidebar.slider("Número de Clusters", min_value=2, max_value=10, value=3)
 
+def get_cluster_color(cluster_label):
+    colors = [
+        'purple', 'black', 'cadetblue', 'pink', 'red', 'blue', 'darkgreen', 
+        'darkred', 'lightgreen', 'orange', 'beige', 'darkpurple', 'darkblue', 'green', 'gray', 'lightgray', 'lightred', 'lightblue'
+    ]
+    return colors[cluster_label]
+
 # Aplicar K-Means
 kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
 coordinates = np.array([(point.y, point.x) for point in gdf.geometry])
@@ -26,7 +33,7 @@ gdf["cluster"] = kmeans.fit_predict(coordinates)
 cluster_counts = gdf["cluster"].value_counts().reset_index()
 cluster_counts.columns = ["cluster", "cantidad"]
 cluster_counts["porcentaje"] = (cluster_counts["cantidad"] / cluster_counts["cantidad"].sum()) * 100
-cluster_counts["color"] = cluster_counts["cluster"].apply(lambda x: colors[x % len(colors)])
+cluster_counts["color"] = cluster_counts["cluster"].apply(get_cluster_color)
 
 # 📌 Ordenar de mayor a menor
 cluster_counts = cluster_counts.sort_values(by="cantidad", ascending=False)
@@ -35,16 +42,8 @@ cluster_counts = cluster_counts.sort_values(by="cantidad", ascending=False)
 st.sidebar.subheader("📈 Estadísticas de Clustering")
 st.sidebar.dataframe(cluster_counts.style.format({"porcentaje": "{:.2f}%"}), use_container_width=True)
 
-
 # Crear el mapa
 mapa = folium.Map(location=[18.5, -69.9], zoom_start=9)
-
-def get_cluster_color(cluster_label):
-    colors = [
-        'purple', 'black', 'cadetblue', 'pink', 'red', 'blue', 'darkgreen', 
-        'darkred', 'lightgreen', 'orange', 'beige', 'darkpurple', 'darkblue', 'green', 'gray', 'lightgray', 'lightred', 'lightblue'
-    ]
-    return colors[cluster_label]
 
 for idx, row in gdf.iterrows():
     popup_text = f"""
