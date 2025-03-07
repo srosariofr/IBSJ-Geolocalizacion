@@ -89,7 +89,7 @@ for idx, row in gdf.iterrows():
 
 # Mostrar el mapa en Streamlit
 with col2:
-    st_folium(mapa, width="100%")
+    st_folium(mapa, width="100%", returned_objects=[])
 
 # 📊 Mostrar tabla 
 with col1:
