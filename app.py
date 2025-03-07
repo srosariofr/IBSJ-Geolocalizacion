@@ -10,9 +10,12 @@ from streamlit_folium import folium_static
 
 
 # Cargar puntos de ejemplo
-gdf = pd.read_csv('data.csv')
-geometry = [Point(xy) for xy in zip(gdf["lng"], gdf["lat"])]  # Crea los puntos
-gdf = gpd.GeoDataFrame(gdf, geometry=geometry, crs="EPSG:4326")  # Asigna CRS WGS84
+@st.cache_data 
+def load_data():
+    gdf = pd.read_csv('data.csv')
+    geometry = [Point(xy) for xy in zip(gdf["lng"], gdf["lat"])]  # Crea los puntos
+    gdf = gpd.GeoDataFrame(gdf, geometry=geometry, crs="EPSG:4326")  # Asigna CRS WGS84
+    return gdf
 
 # Sidebar: Parámetro de K-Means
 n_clusters = st.sidebar.slider("Número de Clusters", min_value=2, max_value=10, value=3)
@@ -23,6 +26,8 @@ def get_cluster_color(cluster_label):
         'darkred', 'lightgreen', 'orange', 'beige', 'darkpurple', 'darkblue', 'green', 'gray', 'lightgray', 'lightred', 'lightblue'
     ]
     return colors[cluster_label]
+
+gdf = load_data()
 
 # Aplicar K-Means
 kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
@@ -43,7 +48,7 @@ st.sidebar.subheader("📈 Estadísticas de Clustering")
 st.sidebar.dataframe(cluster_counts.style.format({"porcentaje": "{:.2f}%"}), use_container_width=True)
 
 # Crear el mapa
-mapa = folium.Map(location=[18.5, -69.9], zoom_start=9)
+mapa = folium.Map(location=[18.5, -69.9], zoom_start=11)
 
 for idx, row in gdf.iterrows():
     popup_text = f"""
