@@ -36,9 +36,9 @@ if buscar and criterio:
     criterio_norm = normalizar_texto(criterio)
 
     coincidencias = gdf[
-        (gdf["id"].astype(str).str.contains(criterio_norm, case=False, na=False)) |
-        (gdf["first_name"].str.contains(criterio_norm, case=False, na=False)) |
-        (gdf["last_name"].str.contains(criterio_norm, case=False, na=False))
+        (gdf["id"].astype(str).apply(normalizar_texto).str.contains(criterio_norm, case=False, na=False)) |
+        (gdf["first_name"].apply(normalizar_texto).str.contains(criterio_norm, case=False, na=False)) |
+        (gdf["last_name"].apply(normalizar_texto).str.contains(criterio_norm, case=False, na=False))
     ]
     
     if len(coincidencias) == 0:
