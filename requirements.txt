@@ -7,3 +7,4 @@ shapely
 scikit-learn
 streamlit_folium
 numpy
+unidecode
