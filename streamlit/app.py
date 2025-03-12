@@ -24,11 +24,10 @@ with st.container():
 
 # Cargar puntos de ejemplo
 @st.cache_data 
-def load_data():
-    gdf = pd.read_csv('data.csv')
-    geometry = [Point(xy) for xy in zip(gdf["lng"], gdf["lat"])]  # Crea los puntos
-    gdf = gpd.GeoDataFrame(gdf, geometry=geometry, crs="EPSG:4326")  # Asigna CRS WGS84
-    return gdf
+def cargar_puntos():
+    return gpd.read_file('geolocations.db')
+
+gdf = cargar_puntos()
 
 @st.cache_data 
 def get_cluster_color(cluster_label):
@@ -41,9 +40,6 @@ def get_cluster_color(cluster_label):
 # Sidebar: Parámetro de K-Means
 with col1:
     n_clusters = st.slider("Selecciona número de Clusters:", min_value=2, max_value=10, value=3)
-
-
-gdf = load_data()
 
 # Aplicar K-Means
 kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)

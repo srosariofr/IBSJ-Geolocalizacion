@@ -12,9 +12,7 @@ st.title("🔍 Buscar Miembros Cercanos")
 # Cargar los datos de coordenadas
 @st.cache_data
 def cargar_puntos():
-    df = pd.read_csv("data.csv")  # Asegúrate de que el archivo existe
-    geometry = [Point(xy) for xy in zip(df["lng"], df["lat"])]
-    return gpd.GeoDataFrame(df, geometry=geometry, crs="EPSG:4326")
+    return gpd.read_file("geolocations.db")
 
 gdf = cargar_puntos()
 
