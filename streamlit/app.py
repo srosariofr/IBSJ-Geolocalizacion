@@ -25,7 +25,7 @@ with st.container():
 # Cargar puntos de ejemplo
 @st.cache_data 
 def cargar_puntos():
-    return gpd.read_file('geolocations.db')
+    return gpd.read_file('geolocations.db', encoding='utf-8')
 
 gdf = cargar_puntos()
 
