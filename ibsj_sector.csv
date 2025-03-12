@@ -1,7 +1,7 @@
 id,prefix,name,first_name,last_name,address_1,address_2,city,state
 106123565,,,José Manuel,Pablo Michelen,"Calle Freddy Gatón Arce 9",Viejo Arroyo Hondo,Santo Domingo,Distrito Nacional
 107350252,,,Cirilo,Camacho,"Ave. Puerta de Hierro No. 42",Puerta de Hierro,Sto. Dgo.,Distrito Nacional
-107350269,,,Alfredo,Camacho,Hector Garcia Godoy No 24,,Sto. Dgo.,Distrito Nacional
+107350269,,,Alfredo,Camacho,Hector Garcia Godoy 24,,Sto. Dgo.,Distrito Nacional
 107350280,,,Ángel Martín,Castillo Franco,"C/ D, #8, Viejo Arroyo Hondo",,Santo Domingo,Distrito Nacional
 107350285,,,Celso,Cepeda,"Residencial Palmas de las Praderas",Palma de las Praderas,Los Hidalgos.,Santo Domingo Oeste.
 107350288,,,Wasindi,Chea,"Av. República de Colombia, Edf. 2M10",Los Rios,Arroyo Hondo,Distrito Nacional
@@ -98,7 +98,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463444,,,Ana,González Boitel,"C. Licenciado Malaquias Gil 10",,SERRALLES,
 108463445,,,Pedro Silvestre,Caraballo Pouerie,"C/ Luis Amiama Tió  #92, Residencial G20, Apto G-3",Arroyo Hondo,Santo Domingo,Distrito Nacional
 108463446,,,Rubén Dario,Castillo Mayol,"Colinas del Arroyo II, Proy. Vista del Arroyo Apto N101",Colinas del Norte,Santo Domingo Norte,Santo Domingo
-108463447,,,Ivelisse Antonia,Cedeño Basilio,"C. 3ra Bajos de Haina",San Jose,,
+108463447,,,Ivelisse Antonia,Cedeño Basilio,"Calle 3ra, Bajos de Haina",San Jose,,
 108463448,,,Alejandro,Castillo Franco,Calle Poncio Sabater #1,Ensanche Paraiso,Santo Domingo,Distrito Nacional
 108463449,,,María Alicia,Esteva de Castillo,Calle El Retiro #1,Ensanche Piantini,Santo Domingo,Distrito Nacional
 108463450,,,Marleny,Ciriaco de Lantigua,"C/JOSE CONTRERAS #71,APT.301,  RES. IBERIA",La Julia,ZONA UNIVERSITARIA,
@@ -525,7 +525,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 108463953,,,Nicolás,Florentino,Mauricio Báez #79,,,Santo Domingo
 108463955,,,Bianni,De los Santos de Acosta,Calle 3ra esq. calle E,Arroto Hondo 2,Santo Domingo,
 108463956,,,Sarah,Rodriguez de De Luna,1era. Terraza del Arroyo #35,Cuesta Hermosa,Santo Domingo,Distrito Nacional
-108463957,,,Marisol,Marte,"Residencial Villas del Norte",Villa Mella,Villa Mella,Santo Domingo
+108463957,,,Marisol,Marte,"Residencial Villas del Norte, Villa Mella",Villa Mella,Villa Mella,Santo Domingo
 108463958,,,Luz Maria,Henriquez Morel,,,,
 108463959,,,Martin,Olivarez Paredes,Alfonso Moreno Martínez 66,Altos de Arroyo Hondo II,Santo Domingo,Distrito Nacional
 108463960,,,Wilfredo,Restituyo,,,,
@@ -629,7 +629,7 @@ id,prefix,name,first_name,last_name,address_1,address_2,city,state
 113287248,,,Anllary,Clark,,,,
 113287687,,,Yelitza,Sánchez Collado,"Calle Santo Cerro 23, Colinas del Seminario 3",,,
 113368156,,,Juan Manuel,Abreu Méndez,,,,
-113660791,,,Rumania,Rojas Soto,"Calle Principal, El Edén, Manzana 6",Apto. 15,Santo Domingo Norte,
+113660791,,,Rumania,Rojas Soto,"Urbanizacion el Eden",Apto. 15,Santo Domingo Norte,
 113661585,,,José Luis,Reyes,"Calle Los Hortelanos, Villa Mella",casa #7,Santo Domingo Norte,
 113662065,,,Alexander Antonio,Crook Medina,,,,
 113662387,,,Auris,Medina de Morillo,,,,
